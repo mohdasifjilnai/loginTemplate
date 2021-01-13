@@ -1,0 +1,44 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+   
+    <style>
+    	legend {
+			  background-color: gray;
+			  color: white;
+			  padding: 5px 10px;
+			}
+			.offset-3{
+			  background-color: #eeeeee;
+			}
+    </style>
+</head>
+<body>
+	<div class="container ">
+		<div class="row ">
+			<div class="col-6 offset-3 border border-primary">
+				<legend>Login Page
+				<a href="showUserData.php" class="btn btn-primary offset-6">userdata</a>
+				</legend>
+					<form action="" method="post">
+					<label for="name" class="form-lable">Name:</label><br/>
+					<input type="text" name ="fullName" class="form-control" id="myInput" placeholder="Please Enter the name"/><br/>
+					<label for="email" class="form-lable">Email:</label><br/>
+					<input type="email" name="email" class="form-control" id="email" placeholder="Please enter the email" /><br/>
+					<label for="mobile" class="form-lable">Mobile Number:</label><br/>
+					<input type="tel" name="mobile"  class="form-control" id="mobile" placeholder="Please enter the mobile" /><br/>
+					<label for="password">Password</label>
+					<input type="password" name="mobile"  class="form-control" id="password" placeholder="Please enter the mobile" /><br/>
+					<br/><button type="submit" class="btn btn-primary submitButton" name="button">submit</button>
+			</div>
+		</div>
+	</div>
+	
+		</form>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
